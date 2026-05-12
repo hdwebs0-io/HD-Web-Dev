@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | HD Web Dev</title>
+<meta name="description" content="Contact HD Web Dev for business websites, portfolio websites, online stores and responsive web design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html">HD<span>WebDev</span></a>
+
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="primary-navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <p class="small-title">START A PROJECT</p>
+                <h1>Let's build a website that looks premium and gets enquiries.</h1>
+
+                <p>
+                    Tell me what kind of website you need, what your business does and what you want visitors to do next.
+                </p>
+
+                <div class="info-grid">
+                    <div class="info-box">
+                        <span>Email</span>
+                        <a href="mailto:desaihanzalah09@gmail.com">desaihanzalah09@gmail.com</a>
+                    </div>
+
+                    <div class="info-box">
+                        <span>WhatsApp</span>
+                        <a href="https://wa.me/27609087009">+27 60 908 7009</a>
+                    </div>
+
+                    <div class="info-box">
+                        <span>Location</span>
+                        <p>South Africa</p>
+                    </div>
+                </div>
+
+                <a class="whatsapp-btn" href="https://wa.me/27609087009?text=Hi%20HD%20Web%20Dev%2C%20I%20want%20to%20start%20a%20website%20project.">Message on WhatsApp</a>
+            </div>
+
+            <div class="contact-form">
+                <form action="mailto:desaihanzalah09@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+                    <label for="type">Website Type</label>
+                    <select id="type" name="website-type">
+                        <option>Business Website</option>
+                        <option>Online Store</option>
+                        <option>Portfolio Website</option>
+                        <option>Restaurant Website</option>
+                        <option>Other</option>
+                    </select>
+
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" placeholder="Tell me about your idea, pages and deadline..." required></textarea>
+
+                    <button type="submit">Send Message</button>
+                    <p class="form-note">This opens your email app with the project details ready to send.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <h2>HD Web Dev</h2>
+    <p>Ready when your next website is.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
